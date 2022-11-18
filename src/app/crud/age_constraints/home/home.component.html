@@ -1,0 +1,15 @@
+<div>
+  <h1></h1>
+  <!-- <button type="button" [routerLink]="/crud/create/">Create new product</button> -->
+  <table>
+      <tbody>
+          <tr *ngFor="let constraint of ageConstraints">
+
+              <td>{{constraint.id}}</td>
+              <td>{{constraint.age}}</td>
+              <td>{{constraint.constraint_title}}</td>
+          </tr>
+      </tbody>
+
+  </table>
+</div>
